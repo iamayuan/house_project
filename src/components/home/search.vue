@@ -18,7 +18,7 @@
             </el-option>
           </el-select>
          </div>
-         <div class="lq_zongjia">
+         <div class="lq_zongjia er">
             <el-select v-model="jiavalue" filterable clearable placeholder="总价" @change="zongjiaselect()">
               <el-option
               v-for="item of zjdata"
